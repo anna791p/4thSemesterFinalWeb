@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3E808B;
+    font-family: sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
