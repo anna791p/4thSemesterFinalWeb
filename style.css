@@ -13,6 +13,48 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
+.hero {
+    background-image: url(assets/trashwater.jpeg);
+    background-size: cover;
+    height: 70vh;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin: 0;
+}
+
 .blond-highlight {
     color: #F4F7BE;
 }
+
+.video {
+    background-image: url(assets/blue.jpg);
+    background-size: cover;
+    height: 70vh;
+    background-repeat: no-repeat;
+}
+
+/*
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 480px) {
+
+}
+
+*/
