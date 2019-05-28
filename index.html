@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +10,37 @@
 
 <body>
     <main>
+
         <header>
+
+            <!-- do i put logo and nav in here, what do i put in here? -->
+
         </header>
 
-        <div class="hero">
-        <h1><span class="blond-highlight">8 metric tons</span> of trash enter the ocean each year. We are changing that.</h1>
+
+        <label for="toggle"><img src="assets/wave-menu-bigger.png" alt="Three lines representing a wave, used as a burger menu"></label>
+        <input type="checkbox" id="toggle">
+
+        <nav>
+
+            <!--<img src="assets/wave-menu-bigger.png">-->
+
+            <ul class="menu">
+                <li><a href="#section1">One</a></li>
+                <li><a href="#section2">Who Are We?</a></li>
+                <li><a href="#section3">Video</a></li>
+                <li><a href="#section4">Volunteer</a></li>
+                <li><a href="#section5">Support Us</a></li>
+                <li><a href="#section6">Find a Boat</a></li>
+            </ul>
+        </nav>
+
+        <!-- https://www.turnwall.com/articles/adding-single-page-scrolling-navigation-to-your-site/ -->
+
+        <div id="section1" class="hero">
+            <h1><span class="blond-highlight">8 metric tons</span> of trash enter the ocean each year. We are changing that.</h1>
         </div>
-        <div>
+        <div id="section2">
             <h2> Who are <span class="blond-highlight">we</span>? </h2>
             <p> GreenKayak is an environmental initiative, which aims to reduce the amount of waste in the water.</p>
             <p>The main activity is to offer volunteers a free trip in our GreenKayaks, in return for collecting waste from the ocean.</p>
@@ -24,9 +49,9 @@
 
         <h3><span class="blond-highlight">Together</span>, we can paddle for the oceans.</h3>
 
-        <div class="video"></div>
+        <div id="section3" class="video"></div>
 
-        <div>
+        <div id="section4">
             <h2>Volunteer</h2>
             <p>With your help, we can remove tons of pollution from the water. In the last two years you've removed over 10 tons from the ocean. Can we beat it this year?</p>
         </div>
@@ -52,12 +77,12 @@
             </div>
         </div>
 
-        <div>
+        <div id="section5">
             <h2>Support Us</h2>
             <p>All contributions, big or small, are valued, whether they are private or corporate. The donations help GreenKayak to coninue development and dissemination. Thanks for supporting us!</p>
         </div>
 
-        <div>
+        <div id="section6">
             <h2>Find a Boat</h2>
         </div>
 
@@ -66,4 +91,5 @@
 
 
 </body>
+
 </html>

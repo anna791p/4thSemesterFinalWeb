@@ -35,14 +35,57 @@ h1 {
     background-repeat: no-repeat;
 }
 
+input {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+nav {
+    max-height: 0;
+    overflow: hidden;
+}
+
+input:checked~nav {
+    max-height: 500px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+label img {
+    width: 20%;
+}
+
+
 /*
 
 @media only screen and (min-width: 480px) {
 
 }
 
-@media only screen and (min-width: 480px) {
+*/
 
+
+
+@media only screen and (min-width: 720px) {
+    nav {
+        max-height: 10em;
+    }
+
+    label {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 480px) {
