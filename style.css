@@ -64,9 +64,23 @@ nav a {
 }
 
 label img {
+    width: 7%;
+}
+
+.menu {
+    width: 100px;
+    height: 120px;
+    background-color: red;
+    z-index: 1;
+}
+
+img {
     width: 20%;
 }
 
+.logo {
+    display: inline;
+}
 
 /*
 
@@ -88,7 +102,7 @@ label img {
     }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 1240px) {
 
 }
 
