@@ -133,14 +133,16 @@ label img {
 
 @media only screen and (min-width: 768px) {
 
+    .mobile-location {
+        display: none;
+    }
+
     .map {
         display: block;
         width: 100vw;
     }
 
 }
-
-
 
 
 @media only screen and (min-width: 900px) {
