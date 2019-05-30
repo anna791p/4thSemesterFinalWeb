@@ -13,26 +13,31 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
-.hero {
-    background-image: url(assets/trashwater.jpeg);
-    background-size: cover;
-    height: 70vh;
-    background-repeat: no-repeat;
-}
-
 h1 {
     margin: 0;
+    padding-top: 6em;
 }
 
 .blond-highlight {
     color: #F4F7BE;
 }
 
+.hero {
+    background-image: url(assets/trashwater.jpeg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
 .video {
     background-image: url(assets/blue.jpg);
     background-size: cover;
-    height: 70vh;
+    height: 95vh;
     background-repeat: no-repeat;
+}
+
+header {
+    position: fixed;
 }
 
 input {
@@ -55,7 +60,7 @@ input:checked~nav {
 nav ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 0em 2em;
 }
 
 nav a {
@@ -64,53 +69,118 @@ nav a {
 }
 
 label img {
+    margin-left: 2em;
+    margin-top: 3.5em;
     width: 7%;
 }
 
-.menu {
-    width: 100px;
-    height: 120px;
-    background-color: red;
-    z-index: 1;
-}
-
-img {
-    width: 20%;
+.img-icon {
+    width: 8.6%;
 }
 
 .logo {
     display: inline;
 }
 
-/*
+.logo img {
+    width: 85px;
+    padding-top: 1.5em;
+    position: absolute;
+    left: 45vw;
+}
+
+.deepblue {
+    background-image: url(assets/deepblue.jpg);
+    background-size: cover;
+}
+
+.map {
+    display: none;
+}
+
+.footer {
+    background-color: lightgray;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.footer p:nth-child(1) {
+    margin-top: 0;
+}
+
+
+
 
 @media only screen and (min-width: 480px) {
 
 }
 
-*/
 
 
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 600px) {
+
+    h1 {
+        padding-top: 8em;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .map {
+        display: block;
+        width: 100vw;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 900px) {
+
     nav {
         max-height: 10em;
+        display: inline-block;
     }
 
     label {
         display: none;
     }
+
+    ul li {
+        display: inline;
+        padding: 0.7em;
+    }
+
+    .logo img {
+        position: absolute;
+        left: 5vw;
+    }
+
+    .menu {
+        position: relative;
+        top: 58px;
+        left: 18vw;
+    }
+
+    h1 {
+        padding-top: 11em;
+    }
+
 }
 
-@media only screen and (min-width: 1240px) {
+@media only screen and (min-width: 1024px) {
 
 }
 
-@media only screen and (min-width: 480px) {
-
-}
-
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 1200px) {
 
 }
 

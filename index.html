@@ -11,27 +11,28 @@
 <body>
     <main>
 
-        <header>
+        <header class="navigation">
 
-
-            <label for="toggle"><img src="assets/wave-menu-sized.png" alt="Three lines representing a wave, used as a burger menu"></label>
+            <label class="menuToggle" for="toggle"><img src="assets/wave-menu-sized.png" alt="Three lines representing a wave, used as a burger menu"></label>
             <input type="checkbox" id="toggle">
 
-            <div class="logo">
-            <img src="assets/logosquare.png" alt="GreenKayak logo. Organisation name, white kayak and green background.">
-            </div>
+            <a href="#section1"><div class="logo">
+                <img src="assets/logosquare.png" alt="GreenKayak logo. Organisation name, white kayak and green background.">
+            </div></a>
 
-        <nav class="menu">
 
-            <ul>
-                <li><a href="#section1">One</a></li>
-                <li><a href="#section2">Who Are We?</a></li>
-                <li><a href="#section3">Video</a></li>
-                <li><a href="#section4">Volunteer</a></li>
-                <li><a href="#section5">Support Us</a></li>
-                <li><a href="#section6">Find a Boat</a></li>
-            </ul>
-        </nav>
+            <nav class="menu">
+
+
+                <ul>
+                    <li><a href="#section2">Who Are We?</a></li>
+                    <li><a href="#section4">Volunteer</a></li>
+                    <li><a href="#section5">Support Us</a></li>
+                    <li><a href="#section6">Find a Boat</a></li>
+                    <li class="boat-btn"><a href="https://www.greenkayak.org/booking/">Book a GreenKayak</a></li>
+                    <li class="donate-btn"><a href="https://www.greenkayak.org/support-us/">Donate</a></li>
+                </ul>
+            </nav>
 
             <!-- do i put logo and nav in here, what do i put in here? -->
 
@@ -39,57 +40,75 @@
 
         <!-- https://www.turnwall.com/articles/adding-single-page-scrolling-navigation-to-your-site/ -->
 
-        <div id="section1" class="hero">
-            <h1><span class="blond-highlight">8 metric tons</span> of trash enter the ocean each year. We are changing that.</h1>
-        </div>
-        <div id="section2">
-            <h2> Who are <span class="blond-highlight">we</span>? </h2>
-            <p> GreenKayak is an environmental initiative, which aims to reduce the amount of waste in the water.</p>
-            <p>The main activity is to offer volunteers a free trip in our GreenKayaks, in return for collecting waste from the ocean.</p>
-            <p>During the last two years, several thousand volunteers used a GreenKayak in the harbours of Denmark, collecting more than 10 tons of waste.</p>
-        </div>
-
-        <h3><span class="blond-highlight">Together</span>, we can paddle for the oceans.</h3>
-
-        <div id="section3" class="video"></div>
-
-        <div id="section4">
-            <h2>Volunteer</h2>
-            <p>With your help, we can remove tons of pollution from the water. In the last two years you've removed over 10 tons from the ocean. Can we beat it this year?</p>
-        </div>
-
-        <h3><span class="blond-highlight">Protect</span> the oceans. Make a <span class="blond-highlight">difference</span>.</h3>
-
-        <div>
-            <div>
-                <img src="assets/icons/anchor.png">
-                <h4>See Copenhagenfrom the water</h4>
-                <p>You get to spend 2 hours kayaking for free around the canals of Copenhagen.</p>
+        <div class="main-content">
+            <div id="section1" class="hero">
+                <h1><span class="blond-highlight">8 metric tons</span> of trash enter the ocean each year. We are changing that.</h1>
             </div>
-            <div>
-                <img src="assets/icons/paddles.png">
-                <h4>Share the experience</h4>
-                <p>Our kayaks are two-seaters so bring your friends and family for a day out on the water.</p>
+            <div id="section2">
+                <h2> Who are <span class="blond-highlight">we</span>? </h2>
+                <p> GreenKayak is an environmental initiative, which aims to reduce the amount of waste in the water.</p>
+                <p>The main activity is to offer volunteers a free trip in our GreenKayaks, in return for collecting waste from the ocean.</p>
+                <p>During the last two years, several thousand volunteers used a GreenKayak in the harbours of Denmark, collecting more than 10 tons of waste.</p>
             </div>
-            <div>
-                <img src="assets/icons/seahorse.png">
-                <h4>Support the environment</h4>
-                <p>Pick up trash from the harbour. Every bit counts.</p>
-            </div>
-            <div>
-                <img src="assets/icons/lifejacket.png">
-                <h4>Safety first</h4>
-                <p>Previous experience is not necessary. We provide you a life jack and a stable kayak.</p>
-            </div>
-        </div>
 
-        <div id="section5">
-            <h2>Support Us</h2>
-            <p>All contributions, big or small, are valued, whether they are private or corporate. The donations help GreenKayak to coninue development and dissemination. Thanks for supporting us!</p>
-        </div>
+            <h3><span class="blond-highlight">Together</span>, we can paddle for the oceans.</h3>
 
-        <div id="section6">
-            <h2>Find a Boat</h2>
+            <div id="section3" class="video"></div>
+
+            <div id="section4">
+                <h2>Volunteer</h2>
+                <p>With your help, we can remove tons of pollution from the water. In the last two years you've removed over 10 tons from the ocean. Can we beat it this year?</p>
+            </div>
+
+            <div class="deepblue">
+            <h3><span class="blond-highlight">Protect</span> the oceans. Make a <span class="blond-highlight">difference</span>.</h3>
+
+            <div class="selling-points">
+                <div>
+                    <img class="img-icon" src="assets/icons/anchor.png">
+                    <h4>See Copenhagenfrom the water</h4>
+                    <p>You get to spend 2 hours kayaking for free around the canals of Copenhagen.</p>
+                </div>
+                <div>
+                    <img class="img-icon" src="assets/icons/paddles.png">
+                    <h4>Share the experience</h4>
+                    <p>Our kayaks are two-seaters so bring your friends and family for a day out on the water.</p>
+                </div>
+                <div>
+                    <img class="img-icon" src="assets/icons/seahorse.png">
+                    <h4>Support the environment</h4>
+                    <p>Pick up trash from the harbour. Every bit counts.</p>
+                </div>
+                <div>
+                    <img class="img-icon" src="assets/icons/lifejacket.png">
+                    <h4>Safety first</h4>
+                    <p>Previous experience is not necessary. We provide you a life jack and a stable kayak.</p>
+                </div>
+            </div>
+
+            <div id="section5">
+                <h2>Support Us</h2>
+                <p>All contributions, big or small, are valued, whether they are private or corporate. The donations help GreenKayak to coninue development and dissemination. Thanks for supporting us!</p>
+            </div>
+
+            <div id="section6">
+                <h2>Find a Boat</h2>
+                <img class="map" src="assets/map.png">
+            </div>
+            </div>
+
+            <section class="footer">
+                <p>Get in touch // Collaborate</p>
+                <p>Email</p>
+                <p>info@greenkayak.org</p>
+                <p>Phone</p>
+                <p>+45 22 31 43 19</p>
+                <p>Follow us</p>
+                <p>facebook</p>
+                <p>instagram</p>
+                <p>linkedin</p>
+            </section>
+
         </div>
 
 
