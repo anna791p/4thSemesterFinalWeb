@@ -24,6 +24,18 @@ h1 {
     padding-right: 0.5em;
 }
 
+h2 {
+    font-size: 1.9em;
+    padding-top: 1.2em;
+}
+
+.numero-uno-h3 {
+    position: relative;
+    /*left: 1.9em;*/
+    bottom: 5em;
+    font-size: 1.5em;
+}
+
 .blond-highlight {
     color: #F4F7BE;
 }
@@ -33,6 +45,15 @@ h1 {
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+#section2 p {
+    margin: 2em 0em;
+    padding-bottom: 0.7em;
 }
 
 .video {
@@ -81,7 +102,7 @@ label img {
 }
 
 .img-icon {
-    width: 8.6%;
+    width: 30px;
 }
 
 .logo {
@@ -109,8 +130,18 @@ label img {
     left: 50vw;
     top: 90vh;
     animation-name: levitate;
-    animation-duration: 3s;
+    animation-duration: 2.5s;
     animation-iteration-count: infinite;
+}
+
+.pictures {
+    width: 55vw;
+}
+
+.photo1 {
+    position: relative;
+    left: 8em;
+    top: 3em;
 }
 
 #section2 {
