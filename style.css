@@ -9,9 +9,7 @@ body {
     margin: 0;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     text-transform: uppercase;
 }
 
@@ -47,7 +45,7 @@ h4 {
 }
 
 .hero {
-    background-image: url(assets/trashwater.jpeg);
+    background: linear-gradient(rgba(62,128,139,0),rgba(62,128,139,1)), url(assets/trashwater.jpeg);
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
@@ -78,6 +76,10 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0em 2em;
+}
+
+li {
+    padding-top: 1em;
 }
 
 nav a {
@@ -138,7 +140,7 @@ p {
 }
 
 .video {
-    background-image: url(assets/blue.jpg);
+    background: linear-gradient(rgba(1,47,63,0),rgba(1,47,63,1)), linear-gradient(rgba(62,128,139,1),rgba(255,255,255,0)), url(assets/blue.jpg);
     background-size: cover;
     height: 95vh;
     background-repeat: no-repeat;
@@ -157,6 +159,10 @@ p {
 #section2, .selling-points, #section5, #section6 {
     text-align: center;
     padding: 0em 2.5em;
+}
+
+#section4 {
+    background-color: #012F3F;
 }
 
 .selling-points div {
@@ -179,6 +185,12 @@ a {
 .green-kayak {
     display: none;
 }
+
+
+
+/*  FOOTER  */
+
+
 
 .footer {
     background-color: lightgray;
