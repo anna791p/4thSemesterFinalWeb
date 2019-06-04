@@ -176,6 +176,10 @@ a {
     display: none;
 }
 
+.green-kayak {
+    display: none;
+}
+
 .footer {
     background-color: lightgray;
     color: #7c7c7c;
@@ -291,6 +295,11 @@ a {
     .map {
         display: block;
         width: 100vw;
+    }
+
+    .green-kayak {
+        display: inline;
+        height: 50px;
     }
 
 }
