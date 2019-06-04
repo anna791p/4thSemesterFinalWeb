@@ -178,6 +178,9 @@ a {
 
 .footer {
     background-color: lightgray;
+    color: #7c7c7c;
+    text-align: center;
+    padding: 1em 0em 1em 0em;
 }
 
 .footer p {
@@ -186,6 +189,43 @@ a {
 
 .footer p:nth-child(1) {
     margin-top: 0;
+    text-transform: uppercase;
+    font-size: 0.85em;
+    padding-bottom: 0.5em;
+}
+
+.footer p:nth-child(2) {
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+.footer p:nth-child(3) {
+    margin: 0.5em 0em 0em 0em;
+}
+
+.footer p:nth-child(4) {
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+.footer p:nth-child(5) {
+    margin: 0.5em 0em 0em 0em;
+    padding-bottom: 1.5em;
+}
+
+.footer p:nth-child(6) {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding-bottom: 1em;
+}
+
+.SoMe-icons img {
+    height: 25px;
+}
+
+.footer .SoMe-icons {
+    display: inline;
+    padding: 0em 0.7em 0.7em;
 }
 
 
