@@ -156,6 +156,15 @@ p {
     top: 3em;
 }
 
+.bookGK {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 1em;
+    font-weight: 800;
+    color: #00222B;
+}
+
 #section2, .selling-points, #section5, #section6 {
     text-align: center;
     padding: 0em 2.5em;
@@ -170,7 +179,7 @@ p {
 }
 
 .deepblue {
-    background-image: url(assets/deepblue.jpg);
+    background-image: url(assets/deepblue-edit1.jpg);
     background-size: cover;
 }
 
@@ -259,7 +268,7 @@ a {
     }
 
     .selling-points {
-        padding: 0em 5em;
+        padding: 0em 6em;
     }
 
     #section5 {
@@ -284,6 +293,11 @@ a {
     h1 {
         font-size: 2.1em;
         padding: 8em 3em 0em 1.5em;
+    }
+
+    .selling-points {
+        padding: 0em 9em;
+       /* margin: 0em 4em */
     }
 
 }
@@ -318,6 +332,28 @@ a {
     .green-kayak {
         display: inline;
         height: 50px;
+    }
+
+    #section6 .boat1, .boat2, .boat3, .boat4 {
+        position: relative;
+    }
+
+    #section6 .boat1 {
+        bottom: 100px;
+    }
+
+    #section6 .boat2 {
+        bottom: 200px;
+
+    }
+
+    #section6 .boat3 {
+        bottom: 400px;
+        left: -50px;
+    }
+
+    #section6 .boat4 {
+        bottom: 250px;
     }
 
 }
@@ -362,6 +398,10 @@ a {
 
     h1 {
         padding: 8em 9em 0em 4em;
+    }
+
+    .selling-points {
+        text-align: left;
     }
 
 }
