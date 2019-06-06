@@ -29,17 +29,6 @@ h2 {
     padding-top: 1.2em;
 }
 
-/*
-
-.numero-uno-h3 {
-    position: relative;
-    /*left: 1.9em;*/
- /*   bottom: 5em;
-    font-size: 1.5em;
-}
-
-*/
-
 h4 {
     margin: 0.5em 0em 0em 0em;
 }
@@ -55,8 +44,24 @@ h4 {
     background-repeat: no-repeat;
 }
 
+.hero p {
+    display: inline-block;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-left: 0.9em;
+    padding-top: 1em;
+
+}
+
+
+
+/*  NAVIGATION  */
+
+
+
 header {
     position: fixed;
+    z-index: 1;
 }
 
 input {
@@ -114,6 +119,12 @@ label img {
     left: 40vw;
 }
 
+
+
+/*  NAVIGATION END  */
+
+
+
 @keyframes levitate {
     0% {
         top: 90vh;
@@ -145,6 +156,10 @@ p {
     padding-bottom: 0.7em;
 }
 
+#section2 p:last-child {
+    padding-bottom: 2em;
+}
+
 .video {
     background: linear-gradient(rgba(255,255,255,0),rgba(17,71,89,1)), linear-gradient(rgba(62,128,139,1),rgba(255,255,255,0)), url(assets/blue.jpg);
     background-size: cover;
@@ -156,36 +171,100 @@ p {
     width: 55vw;
 }
 
-
-/*
-
-.photo1 {
-    position: relative;
-    left: 8em;
-    top: 3em;
+.volunteer p {
+    margin: 2em 0em;
+    padding-bottom: 0.7em;
 }
 
-*/
+.volunteer h2 {
+    margin-top: 0;
+}
+
+.text-img-overlap img {
+    position: relative;
+    left: 8em;
+}
+
+.text-img-overlap h3 {
+    display: inline-block;
+    position: relative;
+    bottom: 8em;
+    left: 3.4em;
+}
+
+.text-img-overlap-2 {
+    padding-top: 7em;
+}
+
+.text-img-overlap-2 img {
+    position: relative;
+    left: 3em;
+}
+
+.text-img-overlap-2 h3 {
+    display: inline-block;
+    position: relative;
+    bottom: 5.5em;
+    left: 4.9em;
+}
+
+.text-img-overlap-3 img {
+    position: relative;
+    left: 3em;
+}
+
+.text-img-overlap-3 h3 {
+    display: inline-block;
+    position: relative;
+    bottom: 13em;
+    left: 6.4em;
+}
+
+.text-img-overlap-4 img {
+    position: relative;
+    left: 3em;
+}
+
+.text-img-overlap-4 h3 {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    right: 3.6em;
+    bottom: 7em;
+
+}
 
 .bookGK {
     text-transform: uppercase;
     text-decoration: none;
     background-color: #ffffff;
-    padding: 1em;
+    padding: 0.6em 0.9em;
     font-weight: 800;
     color: #00222B;
+}
+
+.btn-bookGK {
+    padding-top: 3em;
+}
+
+.btn-bookGK2 {
+    padding-top: 2em;
 }
 
 .donate {
     text-transform: uppercase;
     text-decoration: none;
     background-color: #ffffff;
-    padding: 1em;
+    padding: 0.6em 0.9em;
     font-weight: 800;
     color: #00222B;
 }
 
-#section2, .selling-points, #section5, #section6 {
+.btn-donate2 {
+    padding: 3em 0em 3em 0em;
+}
+
+#section2, .selling-points, #section5, #section6, .volunteer {
     text-align: center;
     padding: 0em 2.5em;
 }
@@ -198,8 +277,26 @@ p {
     padding-bottom: 3em;
 }
 
+.mediumblue {
+    background: linear-gradient(rgba(17,71,89,1),rgba(1,47,63,0)), linear-gradient(rgba(1,47,63,0),rgba(0,47,58,1)), url(assets/bubble-1452700.jpg);
+    background-size: cover;
+}
+
+#section5 {
+    padding-top: 3em;
+}
+
+#section6 p {
+    margin: 0em;
+    padding: 1em 0em 4em 0em;
+}
+
+#section6 a {
+    color: #f4f7be
+}
+
 .deepblue {
-    background-image: url(assets/deepblue-edit1.jpg);
+    background: linear-gradient(rgba(0,47,58,1),rgba(0,47,58,0)), linear-gradient(rgba(0,33,42,0),rgba(0,33,42,1)), url(assets/underwater1.jpg);
     background-size: cover;
 }
 
@@ -283,16 +380,15 @@ a {
         left: 45vw;
     }
 
-    #section2 {
+    #section2, .volunteer, #section5 {
+        padding: 0em 5em;
+    }
+     {
         padding: 0em 5em;
     }
 
     .selling-points {
         padding: 0em 6em;
-    }
-
-    #section5 {
-        padding: 0em 5em;
     }
 
     h4 {
@@ -354,28 +450,43 @@ a {
         height: 50px;
     }
 
-    #section6 .boat1, .boat2, .boat3, .boat4 {
+    #section6 .boat1, .boat2 {
         position: relative;
     }
 
     #section6 .boat1 {
-        bottom: 100px;
+        bottom: 150px;
+        right: 90px;
     }
 
     #section6 .boat2 {
-        bottom: 200px;
+        bottom: 175px;
+        right: 15px;
 
     }
 
-    #section6 .boat3 {
-        bottom: 400px;
-        left: -50px;
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
-    #section6 .boat4 {
-        bottom: 250px;
+    .footer div:first-child {
+        text-align: left;
+        padding-left: 35%;
+        padding-top: 0.5em;
     }
 
+}
+
+@media only screen and (min-width: 850px) {
+    #section6 .boat1 {
+        bottom: 160px;
+        right: 95px;
+    }
+
+    #section6 .boat2{
+        bottom: 185px;
+    }
 }
 
 
@@ -411,6 +522,7 @@ a {
         background-color: #ffffff;
         padding: 1em;
         text-transform: uppercase;
+        font-weight: 800;
     }
 
     .donate-btn a {
@@ -418,11 +530,48 @@ a {
         background-color: #ffffff;
         padding: 1em;
         text-transform: uppercase;
+        font-weight: 800;
     }
 
     h1 {
         padding: 8em 9em 0em 4em;
     }
+
+    #section2 {
+        text-align: left;
+    }
+
+    .volunteer {
+        text-align: left;
+    }
+
+
+    .grid-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /*
+
+    .text-img-overlap h3 {
+        position: relative;
+        bottom: 80px;
+        display: inline-block;
+    }
+
+    .text-img-overlap img {
+        position: relative;
+    }
+
+    */
+
+    /*
+    .text-img-overlap img {
+        margin-left: 50px;
+        margin-top
+    }
+
+    */
 
     .selling-points {
         text-align: left;
